@@ -5,7 +5,7 @@ class Canvas
     @canvas = Array.new(row_size) { Array.new(column_size, ' ') }
   end
 
-  def showCanvas
+  def drawCanvas
     (@column_size+2).times {print '-'}
     puts "\n"
     @canvas.each { |row| puts "|#{row.join('')}|"}
