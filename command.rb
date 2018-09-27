@@ -19,7 +19,7 @@ class Command
       @y1 = instructionArray[2].to_i - 1
       @x2 = instructionArray[3].to_i - 1
       @y2 = instructionArray[4].to_i - 1
-      
+
     end
 
   end
